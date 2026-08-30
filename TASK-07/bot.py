@@ -23,9 +23,16 @@ async def main():
     await bot.load_extension("cogs.economy")
     await bot.load_extension("cogs.shop")
 
-    # 3. Start Bot (Set token via environment variable or pass explicitly)
-    token = os.getenv("DISCORD_BOT_TOKEN") or "YOUR_DISCORD_BOT_TOKEN_HERE"
-    await bot.start(token)
+    # 3. Retrieve token strictly from environment variable
+    token = os.getenv("DISCORD_BOT_TOKEN")
+    
+    if not token or token == "your_actual_token_here" or token.startswith("MTI3..."):
+        print("\n❌ ERROR: Invalid or missing DISCORD_BOT_TOKEN!")
+        print("Please set your real token using: export DISCORD_BOT_TOKEN=\"your_copied_token\"\n")
+        return
+
+    # 4. Start the bot
+    await bot.start(token.strip())
 
 if __name__ == "__main__":
     asyncio.run(main())

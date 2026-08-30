@@ -17,8 +17,8 @@ def init_db():
         cursor.execute("""
         CREATE TABLE IF NOT EXISTS pirates (
             user_id INTEGER PRIMARY KEY,
-            wallet INTEGER NOT DEFAULT 100,
-            bank INTEGER NOT DEFAULT 0
+            wallet INTEGER NOT NULL DEFAULT 100,
+            bank INTEGER NOT NULL DEFAULT 0
         )
         """)
 
@@ -58,7 +58,6 @@ def init_db():
                 default_items
             )
         conn.commit()
-
 # --- Database Helper Functions ---
 
 def get_or_create_pirate(user_id: int) -> sqlite3.Row:
