@@ -1,5 +1,3 @@
-# Berry Broker — Discord Bot (TASK-07)
-
 Berry Broker is an interactive One Piece-themed economy and utility Discord bot built using `discord.py` and `sqlite3`. It allows server members to build their bounty, raid rival crews, trade currency, and fetch live Grand Line intel from an external API.
 
 # Features
