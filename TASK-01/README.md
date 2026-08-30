@@ -1,10 +1,10 @@
-<!-- Exercise 1 -->
+# Exercise 1
 
 Git commands used: git verify
 
 --> Used a custom-built command called git verify to complete the first task.
 
-<!-- Exercise 2 -->
+# Exercise 2
 
 Git commands used: git add, git commit -m
 
@@ -12,7 +12,7 @@ git add --> It basically selects the items to be committed from the working dire
 
 git commit -m --> This creates a commit for the items that were added. The -m allows us to add a message explaining what we did.
 
-<!-- Exercise 3 -->
+# Exercise 3
 
 Git commands used: git reset, git commit, git status
 
@@ -22,7 +22,7 @@ git reset --> This helps reverse git add. It removes the file from the list of f
 
 git commit -m --> This creates a commit for the items that were added. The -m allows us to add a message explaining what we did.
 
-<!-- Exercise 4 -->
+# Exercise 4
 
 Git commands used: git add ., touch .gitignore, git commit
 
@@ -34,13 +34,13 @@ git commit -m --> This creates a commit for the items that were added. The -m al
 
 Challenges faced: I thought adding a folder to gitignore would automatically ignore all the files inside it. It actually does, but since we are using git verify, we have to follow the instructions and also specify the extensions of the files inside the folder.
 
-<!-- Exercise 5 -->
+# Exercise 5
 
 Git commands used: git merge
 
 git merge --> This is used to combine two different branches into one.
 
-<!-- Exercise 6 -->
+# Exercise 6
 
 Git commands used: git add ., git merge, git commit
 
@@ -52,7 +52,7 @@ git commit -m --> This creates a commit for the items that were added. The -m al
 
 Challenges faced: I was going over the commit limit many times.
 
-<!-- Exercise 7 -->
+# Exercise 7
 
 Git commands used: git add, git stash, git stash pop, git commit
 
@@ -66,13 +66,13 @@ git stash pop --> Git takes the most recent stash and applies those changes back
 
 Challenges faced: The question instructions were confusing, so I had to try multiple times.
 
-<!-- Exercise 8 -->
+# Exercise 8
 
 Git commands used: git rebase
 
 git rebase --> It basically helps us move changes from one branch to another. For example, if we have a baseline commit A and a commit B on top of A, but there was a bug that we fixed by returning to A and creating another branch C, then we can use git rebase to bring the fix and features of C into B. It becomes A --> C --> B.
 
-<!-- Exercise 9 -->
+# Exercise 9
 
 Git commands used: git rm
 
@@ -86,7 +86,7 @@ If we only use rm, the file is removed from the hard drive, but Git marks it as 
 
 -f --> Allows us to force a deletion.
 
-<!-- Exercise 10 -->
+# Exercise 10
 
 Git commands used: git mv
 
@@ -94,7 +94,7 @@ git mv --> This command can be used to rename or move a file or directory, and t
 
 If we use the terminal's standard mv command to rename a tracked file, we need additional Git commands to track the new file and remove the old one.
 
-<!-- Exercise 11 -->
+# Exercise 11
 
 Git commands used: git commit --amend
 
@@ -108,7 +108,7 @@ It can be used to change the commit message, add forgotten files, or make change
 
 Git does not actually edit the old commit. It completely removes the old one and replaces it with a new commit that has a new, unique ID/hash.
 
-<!-- Exercise 12 -->
+# Exercise 12
 
 Git commands used: git commit --amend --date=""
 
@@ -118,7 +118,7 @@ If you want to set the time to the current time, you can use --reset-author inst
 
 Note: date only changes the author date. If you want to change the committer's date, you need to specify GIT_COMMITER_DATE="date time" before the git commit --amend command.
 
-<!-- Exercise 13 -->
+# Exercise 13
 
 Git commands used: git rebase -i, git rebase --continue, git commit --amend
 
@@ -132,7 +132,7 @@ git rebase --continue --> After you have committed the changes you wanted to mak
 
 Note: rebase works similarly to merge, but rebase keeps the branch history cleaner than git merge.
 
-<!-- Exercise 14 -->
+# Exercise 14
 
 Git commands used: git reflog, git reset --hard
 
@@ -140,7 +140,7 @@ git reflog --> It records a chronological list of every time your HEAD pointer m
 
 git reset --hard <hash> --> git reset is used to move the current branch pointer to a specific commit. The --hard flag tells Git to forcefully move to that commit.
 
-<!-- Exercise 15 -->
+# Exercise 15
 
 Git commands used: git reset, git add, git commit
 
@@ -154,7 +154,7 @@ default --> Leaves the files changed but does not stage them.
 
 git add --> It basically selects the items to be committed from the working directory. The . adds all the files and folders in the working directory.
 
-<!-- Exercise 16 -->
+# Exercise 16
 
 Git commands used: git log, git rebase -i, git commit --amend, git rebase --continue
 
@@ -174,7 +174,7 @@ But the easier method would be to use the -s flag or squash the second commit.
 
 An even easier method would be to use git reset --soft HEAD~2, which would automatically do the work for you.
 
-<!-- Exercise 17 -->
+# Exercise 17
 
 Git commands used: git update-index --chmod=+x .sh, git commit -m
 
@@ -188,7 +188,7 @@ The above information is what we are passing to the index.
 
 git commit -m --> This creates a commit for the items that were added. The -m allows us to add a message explaining what we did.
 
-<!-- Exercise 18 -->
+# Exercise 18
 
 Git commands used: git add -p, git commit -m
 
@@ -202,7 +202,7 @@ For every hunk, Git pauses and asks what you want to do with it. It gives option
 
 git commit -m --> This creates a commit for the items that were added. The -m allows us to add a message explaining what we did.
 
-<!-- Exercise 19 -->
+# Exercise 19
 
 Git commands used: git log --oneline, git reflog, git cherry-pick, git add, git commit -m
 
@@ -218,19 +218,19 @@ git log --oneline --> This is a shortcut command that gives a clean view of the 
 
 Challenges faced: Cherry-pick was confusing to use, and getting the exact branch and single commits required for the exercise was challenging.
 
-<!-- Exercise 20 -->
+# Exercise 20
 
 Git commands used: git rebase --onto <destination> <boundary>
 
 git rebase --onto --> This basically takes the commits after the boundary branch and rebases them onto the destination branch.
 
-<!-- Exercise 21 -->
+# Exercise 21
 
 Git commands used: git rebase -i
 
 git rebase -i --> In this exercise, we use git rebase -i and in the interactive nano menu we switch the commits around. The top is the oldest commit and the bottom is the newest commit.
 
-<!-- Exercise 22 -->
+# Exercise 22
 
 Git commands used: git log -S "word" file1.txt file2.txt, git rebase -i, git commit --amend -a --no-edit
 
@@ -240,7 +240,7 @@ git rebase -i --> We can then use interactive rebase mode and change pick to edi
 
 git commit --amend -a --no-edit --> After making the changes, this command automatically adds and commits them. The --no-edit keeps the same commit message.
 
-<!-- Exercise 23 -->
+# Exercise 23
 
 Git commands used: git bisect start, git bisect reset, bisect bad, bisect good 1.0, git bisect run sh -c "openssl enc -base64 -A -d < home-screen-text.txt | grep -v jackass"
 
@@ -265,4 +265,3 @@ openssl enc -base64 -A -d < home-screen-text.txt --> This takes the home-screen-
 grep -v jackass --> grep is a search tool. Normally, it searches for a word. The -v flag reverses the search. It tells the computer to return success (0) if the word "jackass" is not found, and failure (1) if it is found. Git uses these success and failure codes to know if the commit is good or bad.
 
 Challenges faced: It was difficult to understand exactly what we had to do and also what the commands did and how they worked.
-
