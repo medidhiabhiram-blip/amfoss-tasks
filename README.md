@@ -1,1 +1,10 @@
-# amfoss-tasks
+# I am Lakshyardha Abhiram from cse-b.i'm from Visakhapatnam ,Andhra Pradesh. My hobbies are drawing, making things, eating and watching stuff.. 
+
+*I haven't noticed any problems around me that much but I think we shouldn't have college till 5:00 p.m. like tbh the things we study on our own are more effective ,I mean listening to class is a must but the classes should have a limit right cuz from schooling most students at least from Andhra ,are forced to do wit coaching and stuff from a young age we have homework ,then coaching homework and all ... and do all the students complete the given work? hell nah! and that's what should happen too right logically..for escaping the scoldings,beatings we copy the work ,we never find in which field we are interested in, we are not confident, not confident? actually that's "we lost confidence" to be more precise. I think schools and colleges should give us some time to explore ourselves.. what could we do in the free time? maybe learn guitar, draw, go for a walk, play ...etc and free time means not 1 or 2 hours that won't be enough for any productive things tbh that small time is only enough to get pulled towards reels. if I was given control I would change the school and college timings 
+and also also also I would check if every school had atleast basic damn PLAYGROUND!!! ,if had I would also make sure no damn buses are parked.
+
+*I learnt to take things easily, not care about insecurities over the time like it was not smooth..I did a lot of mistakes then after rethinking and all ,I don't say im completely changed but I can say im better than before ..
+
+*If I get into the club I will definitely give my best ,I will learn, make friends and also participate in groups actively..
+
+*Tbh I don't know what im interested in ,I wanna try things from now on.. like its not late to start now.. it will take time maybe an year or 2 but I will try to explore as many things as possible because if I don't I have to be like "aah this isn't what I like" forever.
